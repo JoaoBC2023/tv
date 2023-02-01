@@ -2,12 +2,35 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" type="text/css" href="t.css">
 	<title>TV Online</title>
 </head>
 <body>
 
-	<h1>João Batista Calixto</h1>
+	<div id="c"></div>
 
+	<script>
+		
+		function add(link, img){
+			var a = document.createElement("a");
+			a.setAttribute("href", link);
+			a.innerHTML = '<img class="img" src="'+img+'">';
+			document.getElementById("c").appendChild(a);
+		}
+
+		add("https://sinalpublico.com/player3/ch.php?canal=espn", "https://logosmarcas.net/wp-content/uploads/2020/12/ESPN-Logo.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=espn2", "https://eadn-wc03-3367747.nxedge.io/wp-content/uploads/2020/03/ESPN-2.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=espn3", "https://upload.wikimedia.org/wikipedia/commons/5/51/ESPN3_Logo.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=espn4", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/2560px-ESPN_4_logo.svg.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=espnextra", "https://espnpressroom.com/brazil/files/2018/07/RS3682_ESPN_EXTRA_Brasil_CLR_Pos-scr.jpg");
+		add("https://sinalpublico.com/player3/ch.php?canal=band", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Rede_Bandeirantes_logo_2011.svg/2554px-Rede_Bandeirantes_logo_2011.svg.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=record", "http://recordtv.r7.com/files/2016/11/logo-ok-.jpg");
+		add("https://sinalpublico.com/player3/ch.php?canal=sportv1", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/SporTV_2017_logo.svg/2560px-SporTV_2017_logo.svg.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=sportv2", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SporTV_2_2017_logo.svg/2560px-SporTV_2_2017_logo.svg.png");
+		add("https://sinalpublico.com/player3/ch.php?canal=sportv3", "http://s2.glbimg.com/X4IN-L8NdIIjZI7-3mawMWHbDF-X7cNm6ZuGz9U7d_VIoz-HdGixxa_8qOZvMp3w/s.glbimg.com/es/ge/f/original/2012/06/14/sportv_3.jpg");
+		add("https://embedflix.net/tv/star-1-hd", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Star%2B_logo.svg/2560px-Star%2B_logo.svg.png");
+
+
+	</script>
 </body>
 </html>

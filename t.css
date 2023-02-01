@@ -1,0 +1,13 @@
+.img{
+    width: 100px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e2e2e2;
+    border: 3px outset #e8e8e8;
+}
+.img:hover{
+    background-color: #80c4df;
+    border: 3px outset #9ee4ff;
+}
