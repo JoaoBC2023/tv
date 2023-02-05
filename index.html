@@ -9,13 +9,13 @@
 
 	<div id="c"></div>
 
-	<iframe id="iframe" src=""></iframe>
 
 	<script>
 		
 		function add(link, img){
 			var a = document.createElement("a");
-			a.innerHTML = '<img class="img" src="'+img+'" onclick="vai('+"'"+link+"'"+')">';
+			a.setAttribute("href", link);
+			a.innerHTML = '<img class="img" src="'+img+'">';
 			document.getElementById("c").appendChild(a);
 		}
 
